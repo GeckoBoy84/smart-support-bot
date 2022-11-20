@@ -1,5 +1,5 @@
 const {Client, Intents} = require('discord.js');
-const {token, bot, support_channels} = require('./config');
+const {token, bot, ignore_channels} = require('./config');
 const responses = require('./responses.json')
 const ContentValidator = require('./classes/ContentValidator')
 
@@ -18,7 +18,7 @@ client.once('ready', async () => {
 
 client.on('messageCreate', async (message) => {
     if (message.author.bot) return;
-    if (!support_channels.includes(message.channelId)) return;
+    if (ignore_channels.includes(message.channelId)) return;
 
     let response = await contentValidator.validateContent(message)
     if (!response) return;
