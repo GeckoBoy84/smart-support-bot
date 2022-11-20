@@ -1,6 +1,6 @@
 [
   {
-    "key": "/^(?=.*expire).*$/mgi",
+    "key": "/^(?=.*when)(?=.*expir).*$|(?=.*what)(?=.*expir).*$|(?=.*will)(?=.*expir).*$|(?=.*does)(?=.*expir).*$|(?=.*has)(?=.*expir).*$/mgi",
     "content": "<#881943382346301510> The coupon codes expire after 1 month."
   }
 ]
