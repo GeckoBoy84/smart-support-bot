@@ -1,6 +1,6 @@
 [
   {
-    "key": "/^(?=.*hello)(?=.*world).*$/mgi",
-    "content": "Hello World!"
+    "key": "/^(?=.*expire).*$/mgi",
+    "content": "<#881943382346301510> The coupon codes expire after 1 month."
   }
 ]
