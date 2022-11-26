@@ -6,5 +6,9 @@
   {
     "key": "/^(?=.*how)(?=.*close).*$|(?=.*you)(?=.*can)(?=.*close).*$/mgi",
     "content": "We will close the ticket once you let us know you have redeemed the coupon code!"
+  },
+  {
+    "key": "/^(?=.*have)(?=.*card).*$|(?=.*no)(?=.*card).*$|(?=.*no)(?=.*payment).*$/mgi",
+    "content": "Please follow the video linked below, which shows how to redeem without providing and payment details.\nhttps://youtu.be/3ElQro7-gTM"
   }
 ]
