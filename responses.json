@@ -4,7 +4,7 @@
     "content": "<#881943382346301510> The coupon codes expire after 1 month."
   },
   {
-    "key": "/^(?=.*how)(?=.*close).*$/mgi",
+    "key": "/^(?=.*how)(?=.*close).*$|(?=.*you)(?=.*can)(?=.*close).*$/mgi",
     "content": "We will close the ticket once you let us know you have redeemed the coupon code!"
   }
 ]
